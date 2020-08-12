@@ -2,7 +2,7 @@ package JavaBásico;
 import java.util.Scanner;
 
 
-public class extremamenteBasico {
+public class ExtremamenteBasico {
 	//Bloco de variáveis
 	private static int valorA, valorB, valorX;
 	//Criação do Scanner

@@ -2,7 +2,7 @@ package JavaBásico;
 import java.util.Scanner;
 
 
-public class mediaAlunos {
+public class MediaAlunos {
 	//Bloco de variáveis
 	private static Double notaA, notaB, notaC, mediaAluno;
 	//Criação do Scanner
