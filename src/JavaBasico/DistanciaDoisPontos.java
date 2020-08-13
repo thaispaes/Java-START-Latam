@@ -21,17 +21,16 @@ public class DistanciaDoisPontos {
 			System.out.println(" Informe o ponto Y no plano cartesiano ");
 			pontoY1=input.nextDouble();
 			System.out.println("");
-			System.out.println(" Informe o ponto segundo ponto X no plano cartesiano ");
+			System.out.println(" Informe segundo ponto X no plano cartesiano ");
 			pontoX2=input.nextDouble();
 			System.out.println("");
-			System.out.println(" Informe o ponto segundo ponto X no plano cartesiano ");
+			System.out.println(" Informe segundo ponto Y no plano cartesiano ");
 			pontoX2=input.nextDouble();
 			System.out.println("");
-			input.close();
+			
 			
 			//Calculo da distância 
-			distancia=((Math.pow(pontoX2-pontoX1,2))+(Math.pow(pontoY2-pontoY1,2)));
-			Math.sqrt(distancia);
+			distancia=Math.sqrt((Math.pow((pontoX2-pontoX1),2))+(Math.pow((pontoY2-pontoY1),2)));
 			System.out.println("==================================================");
 			System.out.println(" A DISTÂNCIA ENTRE OS PONTOS É ");
 			System.out.printf("%.4f",distancia);

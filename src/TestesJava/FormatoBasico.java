@@ -17,7 +17,7 @@ public class FormatoBasico {
 			System.out.println("");
 			input.close();
 			
-			
+			System.out.println("=================================================");
 	//Fim do metodo main
 	}
 }
