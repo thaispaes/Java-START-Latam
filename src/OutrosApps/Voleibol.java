@@ -56,12 +56,12 @@ public class Voleibol {
 				System.out.println("=================================================");
 				System.out.println("");
 				
-				//bla blabla
+				//Somatorio do total das tentativas
 				totalTentativasA+=numAtaques;
 				totalTentativasB+=numBloqueios;
 				totalTentativasS+=numSaques;
 				
-				//bl bla bla 
+				//Somatorio dos acertos
 				totalAcertosA+=ataques;
 				totalAcertosB+=bloqueios;
 				totalAcertosS+=saques;
@@ -72,6 +72,7 @@ public class Voleibol {
 			percentualAtaques=((totalAcertosA*100)/totalTentativasA);
 			percentualBloqueios=((totalAcertosB*100)/totalTentativasB);
 			
+			//Resultado do percentual
 			System.out.println("=================================================");
 			System.out.println("==============  PERCENTUAL DO TIME ==============");
 			System.out.println("");
